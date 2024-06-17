@@ -1,72 +1,87 @@
-<!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel = "stylesheet" href="css/heroCS.css">
-    <link rel = "stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel = "stylesheet" href="css/homeCS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
-
-
 
 
 <body>
 
 
-    <div class="text-center">
-        <p class="main_text">
-            ВЫБЕРИТЕ И ИЗУЧИТЕ ГЕРОЯ
-        </p>
-    </div>  
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-                <!-- картинки сверху -->
-            
-                <img src="img/image24.jpg">
-                <p class="name_pers">Bristleback</p>
-                
-           
-                
-          </div>
-          <div class="col-sm-4">
-                <img src="img/image10.jpg">
-                <p class="name_pers">Axe</p>
-                
-          </div>
+
+
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="
+  background-color: transparent;
+">
+<div class="container-fluid">
+  <div class="navbar-header">
+  </div>
+  
+  <ul class="nav navbar-nav center">    
+
+  </ul>
+</div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="img/image 5.jpg" alt="" style="width:100%;">
+      <div class="carousel-caption">
+        <div class="text-center">
+          <p class="main_text">
+              ВЫБЕРИТЕ И ИЗУЧИТЕ ГЕРОЯ
+          </p>
+      </div>  
+        
+        <div class="container">
+          <div class="row">
             <div class="col-sm-4">
-                <img src="img/image12.jpg">
-                <p class="name_pers">Pudge</p>
+                  <!-- картинки сверху -->
+              
+                  <img src="img/image24.jpg">
+                  <p class="name_pers">Bristleback</p>
+                  
+             
+                  
             </div>
-        </div>
-      
-
-
-      
-        <div class="row">
-          <div class="col-sm-4">
-                
-            <!-- вторая строка картинок -->
-            <img src="img/image9.jpg">
-            <p class="name_pers">Spirit Breaker</p>
-                
-           
-                
-          </div>
-          <div class="col-sm-4">
-            
-                
-          </div>
-          <div class="col-sm-4">
-            <img src="img/image13.jpg">
-            <p class="name_pers">Alchemist</p>
-          </div>
-        </div>
-      <!-- третья строка картинок -->
-        <div class="row">
             <div class="col-sm-4">
-              <img src="img/image14.jpg">
-              <p class="name_pers">Night Stalker</p>
+                  <img src="img/image10.jpg">
+                  <p class="name_pers">Axe</p>
+                  
+            </div>
+              <div class="col-sm-4">
+                  <img src="img/image12.jpg">
+                  <p class="name_pers">Pudge</p>
+              </div>
+          </div>
+        
+      
+      
+        
+          <div class="row">
+            <div class="col-sm-4">
+                  
+              <!-- вторая строка картинок -->
+              <img src="img/image9.jpg">
+              <p class="name_pers">Spirit Breaker</p>
                   
              
                   
@@ -76,139 +91,200 @@
                   
             </div>
             <div class="col-sm-4">
-              <img src="img/image15.jpg">
-              <p class="name_pers">Dragon Knight</p>
+              <img src="img/image13.jpg">
+              <p class="name_pers">Alchemist</p>
             </div>
           </div>
-
-            <!--четвёртая строка картинок -->
+        <!-- третья строка картинок -->
           <div class="row">
-            <div class="col-sm-4">
+              <div class="col-sm-4">
+                <img src="img/image14.jpg">
+                <p class="name_pers">Night Stalker</p>
+                    
+               
+                    
+              </div>
+              <div class="col-sm-4">
                 
-              <img src="img/image16.jpg">
-              <p class="name_pers">Primal Beast</p>
-             
+                    
+              </div>
+              <div class="col-sm-4">
+                <img src="img/image15.jpg">
+                <p class="name_pers">Dragon Knight</p>
+              </div>
+            </div>
+      
+              <!--четвёртая строка картинок -->
+            <div class="row">
+              <div class="col-sm-4">
                   
+                <img src="img/image16.jpg">
+                <p class="name_pers">Primal Beast</p>
+               
+                    
+              </div>
+              <div class="col-sm-4">
+                <!-- Картинка сила -->
+                  <img class = "strong" src="img/image18.png">
+                <!-- текст сила -->
+                  <p class="text_strong">СИЛА</p>
+                    
+              </div>
+              <div class="col-sm-4">
+                <img src="img/image17.jpg">
+                <p class="name_pers">Doom</p>
+              </div>
             </div>
-            <div class="col-sm-4">
-              <!-- Картинка сила -->
-                <img class = "strong" src="img/image18.png">
-              <!-- текст сила -->
-                <p class="text_strong">СИЛА</p>
-                  
-            </div>
-            <div class="col-sm-4">
-              <img src="img/image17.jpg">
-              <p class="name_pers">Doom</p>
-            </div>
-          </div>
-    
-    
-    
-    
-    
+      
+      
+      
+      
+      
+      </div>
+      </div>
     </div>
-    
+
+
+
+
+
 
 
 <!-- -------------------------------------------Страница 2--------------------------------------------------------- -->
 
-<div class="text-center">
-  <p class="main_text">
-      ВЫБЕРИТЕ И ИЗУЧИТЕ ГЕРОЯ
-  </p>
-</div>  
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-          <!-- картинки сверху -->
-      
-          <img src="img/image 8.jpg">
-          <p class="name_pers">Sniper</p>
+
+
+
+
+<div class="item">
+  <img src="img/image 6.jpg"alt="" style="width:100%;">
+  <div class="carousel-caption">
+    <div class="text-center">
+      <p class="main_text">
+          ВЫБЕРИТЕ И ИЗУЧИТЕ ГЕРОЯ
+      </p>
+    </div>  
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+              <!-- картинки сверху -->
           
-     
-          
-    </div>
-    <div class="col-sm-4">
-          <img src="img/image 32.jpg">
-          <p class="name_pers">Juggernaut</p>
-          
-    </div>
-      <div class="col-sm-4">
-          <img src="img/image 25.jpg">
-          <p class="name_pers">Meepo</p>
+              <img src="img/image 8.jpg">
+              <p class="name_pers">Sniper</p>
+              
+         
+              
+        </div>
+        <div class="col-sm-4">
+              <img src="img/image 32.jpg">
+              <p class="name_pers">Juggernaut</p>
+              
+        </div>
+          <div class="col-sm-4">
+              <img src="img/image 25.jpg">
+              <p class="name_pers">Meepo</p>
+          </div>
       </div>
+    
+    
+    
+    
+      <div class="row">
+        <div class="col-sm-4">
+              
+          <!-- вторая строка картинок -->
+          <img src="img/image 27.jpg">
+          <p class="name_pers">Anti Mage</p>
+              
+         
+              
+        </div>
+        <div class="col-sm-4">
+          
+              
+        </div>
+        <div class="col-sm-4">
+          <img src="img/image 26.jpg">
+          <p class="name_pers">Arc Warden</p>
+        </div>
+      </div>
+    <!-- третья строка картинок -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="img/image 29.jpg">
+            <p class="name_pers">Viper</p>
+                
+           
+                
+          </div>
+          <div class="col-sm-4">
+            
+                
+          </div>
+          <div class="col-sm-4">
+            <img src="img/image 28.jpg">
+            <p class="name_pers">Bloodseeker</p>
+          </div>
+        </div>
+    
+          <!--четвёртая строка картинок -->
+        <div class="row">
+          <div class="col-sm-4">
+              
+            <img src="img/image 31.jpg">
+            <p class="name_pers">Shadow Fiend</p>
+           
+                
+          </div>
+          <div class="col-sm-4">
+            <!-- Картинка сила -->
+              <img class = "strong" src="img/image 33.png">
+            <!-- текст сила -->
+              <p class="text_strong">ЛОВКОСТЬ</p>
+                
+          </div>
+          <div class="col-sm-4">
+            <img src="img/image 30.jpg">
+            <p class="name_pers">Luna</p>
+          </div>
+        </div>
+    
+    
+    
+    
+    
+    </div>
+    
+  
+  
   </div>
-
-
-
-
-  <div class="row">
-    <div class="col-sm-4">
-          
-      <!-- вторая строка картинок -->
-      <img src="img/image 27.jpg">
-      <p class="name_pers">Anti Mage</p>
-          
-     
-          
-    </div>
-    <div class="col-sm-4">
-      
-          
-    </div>
-    <div class="col-sm-4">
-      <img src="img/image 26.jpg">
-      <p class="name_pers">Arc Warden</p>
-    </div>
-  </div>
-<!-- третья строка картинок -->
-  <div class="row">
-      <div class="col-sm-4">
-        <img src="img/image 29.jpg">
-        <p class="name_pers">Viper</p>
-            
-       
-            
-      </div>
-      <div class="col-sm-4">
-        
-            
-      </div>
-      <div class="col-sm-4">
-        <img src="img/image 28.jpg">
-        <p class="name_pers">Bloodseeker</p>
-      </div>
-    </div>
-
-      <!--четвёртая строка картинок -->
-    <div class="row">
-      <div class="col-sm-4">
-          
-        <img src="img/image 31.jpg">
-        <p class="name_pers">Shadow Fiend</p>
-       
-            
-      </div>
-      <div class="col-sm-4">
-        <!-- Картинка сила -->
-          <img class = "strong" src="img/image 33.png">
-        <!-- текст сила -->
-          <p class="text_strong">ЛОВКОСТЬ</p>
-            
-      </div>
-      <div class="col-sm-4">
-        <img src="img/image 30.jpg">
-        <p class="name_pers">Luna</p>
-      </div>
-    </div>
-
-
-
-
+</div>
 
 </div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only"></span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only"></span>
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
