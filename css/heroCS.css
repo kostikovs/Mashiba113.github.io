@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
 
+@media (min-width: 700px){
+
+}
+
+@media (max-width: 1400px) {
 
 
+  }
 
 .main_text{
     
@@ -216,3 +222,5 @@ body{
   @property --p17 { syntax: '<length>'; inherits: true; initial-value: 0px; }
   @property --p18 { syntax: '<length>'; inherits: true; initial-value: 0px; }
   @property --p19 { syntax: '<length>'; inherits: true; initial-value: 0px; }
+
+
