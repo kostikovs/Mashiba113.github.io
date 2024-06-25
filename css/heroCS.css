@@ -4,6 +4,10 @@
 
 }
 
+.logo{
+  perspective: 1000px;
+}
+
 @media (max-width: 1400px) {
 
 
